@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu"
+            android:icon="@drawable/home"
+            android:title="HOME" />
+
+
+        <item
+            android:id="@+id/page"
+            android:icon="@drawable/page"
+            android:title="pagea" />
+        <item
+            android:id="@+id/page2"
+            android:icon="@drawable/page"
+            android:title="pageb" />
+    </group>
+    <item
+        android:id="@+id/page3"
+        android:icon="@drawable/page"
+        android:title="pagec" />
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="authentification">
+            <menu>
+                <item
+                    android:id="@+id/login"
+                    android:icon="@drawable/exit"
+                    android:title="deconnexion" />
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
+
+
+
+
+
+
+

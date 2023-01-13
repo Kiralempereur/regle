@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "334416444892",
+    "project_id": "linguee-57afe",
+    "storage_bucket": "linguee-57afe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334416444892:android:75ba314f8940cf3fafa319",
+        "android_client_info": {
+          "package_name": "com.example.bloodmenstrue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334416444892-tjp44l98duchlk62ica31b9jddn02f8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjXhzcWywTK7Ws1XxNEiGNcd2406dh3B0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334416444892-tjp44l98duchlk62ica31b9jddn02f8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

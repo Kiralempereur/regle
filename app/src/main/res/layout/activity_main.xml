@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/deconnexion"
+    tools:ignore="InvalidId">
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/chuttt"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Linguee"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="70dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="69dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:text="Nom/id/e-mail : " />
+
+
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:drawablePadding="8dp"
+            android:inputType="textWebEmailAddress"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn"
+
+            android:hint="email"
+
+
+            tools:ignore="HardcodedText" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="30dp"
+                android:text="Mot de passe : " />
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="09dp"
+
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/btn"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text=" Mot de passe oublié ?"
+            android:textSize="10dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="430dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-28dp"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="0dp"
+                android:text="CONNEXION"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/red" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_horizontal"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="10in"
+                android:layout_marginBottom="15dp"
+                android:text="Inscription"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/red" />
+        </LinearLayout>
+
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:outlineAmbientShadowColor="@color/white"
+            android:scrollbarSize="50sp"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
